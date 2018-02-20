@@ -161,10 +161,10 @@ namespace Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal
             }
         }
 
-        [InlineData(false, false)]
+        //[InlineData(false, false)]
         [InlineData(true, false)]
-        [InlineData(false, true)]
-        [InlineData(true, true)]
+        //[InlineData(false, true)]
+        //[InlineData(true, true)]
         [Theory]
         public void OnEntityTypeIgnored_calls_apply_on_conventions_in_order(bool useBuilder, bool useScope)
         {
